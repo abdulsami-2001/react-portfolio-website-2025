@@ -1,6 +1,6 @@
 import React from 'react';
-import Muhammad_Sami_Full from '../assets/Muhammad_Sami_Full.png'
-// import Muhammad_Sami_Full from '../assets/Muhammad_Sami_Full.jpg'
+import Graphic_Design from '../assets/Graphic_Design.json'
+import Lottie from 'lottie-react';
 
 const HeroSection = () => {
     return (
@@ -29,7 +29,7 @@ const HeroSection = () => {
                         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12">
                             <a
                                 href="#projects"
-                                className="bg-[#399c47] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center justify-center sm:justify-start gap-2 hover:opacity-90 transition-all duration-200"
+                                className="bg-[#03b296] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center justify-center sm:justify-start gap-2 hover:opacity-90 transition-all duration-200"
                             >
                                 <span>View My Work</span>
                             </a>
@@ -52,11 +52,14 @@ const HeroSection = () => {
                     </div>
 
                     <div className="flex justify-center lg:justify-end">
-                        <img
-                            src={Muhammad_Sami_Full}
-                            alt="Hero Image"
-                            className="w-full max-w-lg rounded-lg shadow-2xl"
-                        />
+                        <div className="w-full max-w-lg">
+                            <Lottie
+                                animationData={Graphic_Design}
+                                loop={true}
+                                autoplay={true}
+                                className="w-full h-full"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

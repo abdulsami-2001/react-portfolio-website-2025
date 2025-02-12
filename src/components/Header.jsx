@@ -11,7 +11,7 @@ const Header = () => {
                         <img
                             src={Muhammad_Sami}
                             alt="Muhammad Sami"
-                            className="w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full shadow-lg border-2 border-[#399c47]"
+                            className="w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full shadow-lg border-2 border-[#03b296]"
                         />
                         <div className="flex flex-col">
                             <span className="text-gray-800 font-bold text-lg sm:text-2xl lg:text-3xl tracking-wide">
@@ -24,7 +24,7 @@ const Header = () => {
                     </div>
 
                     <div className="sm:col-span-6 flex justify-center sm:justify-end">
-                        <button className="bg-[#399c47] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-base hover:opacity-90 transition-all duration-200 whitespace-nowrap font-medium shadow-sm w-full sm:w-auto text-center">
+                        <button className="bg-[#03b296] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-base hover:opacity-90 transition-all duration-200 whitespace-nowrap font-medium shadow-sm w-full sm:w-auto text-center">
                             Hire Now
                         </button>
                     </div>
