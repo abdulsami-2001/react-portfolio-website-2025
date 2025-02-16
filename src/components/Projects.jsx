@@ -7,31 +7,47 @@ const Projects = ({ projects }) => {
                 <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-12">
                     Projects
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                     {projects?.map((project, index) => (
                         <div
                             key={index}
-                            className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center justify-between h-full text-center"
+                            className="bg-gray-100 p-8 rounded-lg shadow-md flex flex-col items-center text-center space-y-6"
                         >
-                            <div>
-                                <h3 className="text-lg font-semibold mb-2 text-gray-900">
-                                    {project?.name || "Unnamed Project"}
-                                </h3>
-                                <p className="text-gray-600 mb-4 text-justify">
-                                    {project?.description || "No description available."}
-                                </p>
-                                {project?.technologies?.length > 0 && (
-                                    <div className="flex flex-wrap gap-2 justify-center mb-4">
-                                        {project?.technologies.map((tech, i) => (
-                                            <span key={i} className="bg-gray-200 px-3 py-1 rounded-full text-sm text-gray-800">
-                                                {tech}
-                                            </span>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
-                            {/* Centering the buttons properly */}
-                            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-4 w-full justify-center">
+                            {/* Project Image (if available) */}
+                            {project?.image && (
+                                <img
+                                    src={project.image}
+                                    alt={project?.name || "Project Image"}
+                                    // className="w-full h-48 object-cover rounded-lg"
+                                />
+                            )}
+                            
+                            {/* Project Name */}
+                            <h3 className="text-xl font-semibold text-gray-900">
+                                {project?.name || "Unnamed Project"}
+                            </h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-600">
+                                {project?.description || "No description available."}
+                            </p>
+
+                            {/* Technologies Used */}
+                            {project?.technologies?.length > 0 && (
+                                <div className="flex flex-wrap gap-2 justify-center">
+                                    {project.technologies.map((tech, i) => (
+                                        <span 
+                                            key={i} 
+                                            className="bg-gray-200 px-4 py-2 rounded-full text-sm text-gray-800"
+                                        >
+                                            {tech}
+                                        </span>
+                                    ))}
+                                </div>
+                            )}
+
+                            {/* Project Links */}
+                            <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
                                 {project?.links?.primary && (
                                     <a
                                         href={project.links.primary}

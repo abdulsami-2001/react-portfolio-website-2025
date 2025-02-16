@@ -1,14 +1,14 @@
 import React from 'react';
 import Lottie from 'lottie-react';
 import Graphic_Design from '../assets/Graphic_Design.json'
-import Development_Programming from '../assets/Development_Programming.json'
+import Development_and_Programming from '../assets/Development_Programming.json'
 import Virtual_Assistant from '../assets/Virtual_Assistant.json'
 
 const Hero = ({ title, heading, description, animation }) => {
     // Import all animations
     const animations = {
         Graphic_Design: Graphic_Design,
-        Development_Programming: Development_Programming,
+        Development_and_Programming: Development_and_Programming,
         Virtual_Assistant: Virtual_Assistant
     };
 
@@ -40,7 +40,7 @@ const Hero = ({ title, heading, description, animation }) => {
                                 href="#projects"
                                 className="bg-[#03b296] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center justify-center sm:justify-start gap-2 hover:opacity-90 transition-all duration-200"
                             >
-                                <span>View My Work</span>
+                                <span>View My Projects</span>
                             </a>
                             <a
                                 href="#contact"

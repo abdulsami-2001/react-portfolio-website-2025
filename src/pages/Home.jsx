@@ -2,30 +2,136 @@
 import React from 'react';
 import Muhammad_Sami from '../assets/Muhammad_Sami.png';
 import { Link } from 'react-router-dom';
-import { serviceRoutes } from '../routes/serviceRoutes';
 import Marquee from 'react-fast-marquee';
 import Certificates from '../components/Certificates';
-import Mobile_App_Development from '../assets/Mobile_App_Development.jpeg'
-import Software_Engineering_Internship from '../assets/Software_Engineering_Internship.jpeg'
-import BSCS from '../assets/BSCS.jpeg'
+
 import Clients_Feedback from '../assets/Clients_Feedback.json';
 import ClientsFeedback from '../components/ClientsFeedback';
 import Projects from '../components/Projects';
-import ProjectsJSON from '../assets/Projects.json'
+// import ProjectsJSON from '../assets/Projects.json'
+import Highlights from '../components/Highlights';
 
 const Home = () => {
-    // Get random projects from each category
-    const getRandomProjects = () => {
-        const allProjects = [];
-        Object.values(serviceRoutes).forEach(service => {
-            const randomProject = service.projects[Math.floor(Math.random() * service.projects.length)];
-            allProjects.push({
-                ...randomProject,
-                category: service.title
-            });
-        });
-        return allProjects;
-    };
+
+    const FeaturedProjects = [
+        {
+            "name": "Graphic Designer for Social Media Posts and Short Videos",
+            "description": "Create eye-catching designs and short videos while staying true to their brand guidelines.",
+            "technologies": [
+                "Canva",
+                "LinkedIn",
+                "Poster Design",
+                "Graphic Design"
+            ],
+            "label": "Graphic_Design",
+            "links": {
+                "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
+            },
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
+        },
+        {
+            "name": "Restaurant Landing Page",
+            "description": "Developed a React Application which is a restaurant landing page website.",
+            "technologies": [
+                "React",
+                "JavaScript",
+                "Git",
+                "GitHub",
+                "Babel",
+                "Webpack"
+            ],
+            "label": "Development_and_Programming",
+            "links": {
+                "primary": "https://react-restaurant-landing-page-by-sami.netlify.app"
+            },
+            "image": "/restaurant.png"
+        },
+        {
+            "name": "YouTube Thumbnail Specialist 🎯🎥",
+            "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch. Using a strong understanding of visual storytelling, I created thumbnails that aligned with the content's theme and tone, ensuring they stood out in crowded feeds. ",
+            "technologies": [
+                "Canva",
+                "Youtube",
+                "brand identity",
+                "Adobe Photoshop",
+                "Graphic Designer",
+                "Youtube Thumbnail"
+            ],
+            "label": "Graphic_Design",
+            "links": {
+                "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
+            },
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
+        },
+        {
+            "name": "Fan Sounds for Sleep",
+            "description": "Developed an app for improved sleep and concentration.",
+            "technologies": [
+                "Git",
+                "React Native",
+                "React",
+                "JavaScript",
+                "Firebase",
+                "FB Ads",
+                "FB SDK Next",
+                "Google Admob SDK",
+                "React Native Navigation"
+            ],
+            "label": "Development_and_Programming",
+            "links": {
+                "primary": "https://play.google.com/store/apps/details?id=com.bednapfansound",
+                "secondary": "https://drive.google.com/file/d/1L7hX36FOB8a_JoxV9WkGCXqNznjNiLCt/view"
+            },
+            "image": "/fansounds.png"
+        },
+        {
+            "name": "QR Code and Barcode Scanner",
+            "description": "Developed an app that allows users to scan and generate QR codes and barcodes.",
+            "technologies": [
+                "React Native",
+                "React Native Navigation",
+                "React",
+                "JavaScript",
+                "Firebase",
+                "Firebase Database",
+                "Git",
+                "GitHub",
+                "Google Admob SDK",
+                "Facebook SDK",
+                "fbsdk-next"
+            ],
+            "label": "Development_and_Programming",
+            "links": {
+                "primary": "https://play.google.com/store/apps/details?id=com.qr.and.barcode.scanner.usa",
+                "secondary": "https://drive.google.com/file/d/1GcmbnXslqY6PeZqIHUO-lPkfKG3jUg3o/view?usp=sharing"
+            },
+            "image": "/qrcode.png"
+        },
+        {
+            "name": "Temp Mail System",
+            "description": "Developed an app using React Native to provide disposable email addresses.",
+            "technologies": [
+                "React Native",
+                "React Native Navigation",
+                "React",
+                "JavaScript",
+                "Firebase",
+                "Git",
+                "FB SDK Next",
+                "FB Ads",
+                "Google Admob SDK",
+                "API of 1secmail.com"
+            ],
+            "label": "Development_and_Programming",
+            "links": {
+                "primary": "https://play.google.com/store/apps/details?id=com.elitetempmail",
+                "secondary": "https://drive.google.com/file/d/1lPtI7kQwCNAVmfDLL01KSKpiJo3yHngy/view?usp=sharing"
+            },
+            "image": "/tempmail.png"
+        },
+
+    ]
+
 
     const personalSkills = [
         "Positive", "Disciplined", "Consistent", "Transparent", "Team Player",
@@ -35,24 +141,7 @@ const Home = () => {
     ];
 
 
-    const certificatesData = [
-        {
-            name: "Mobile App Development",
-            description: "Government Certificate of Training by IT industry academia bridge program in collaboration with Hazza Institute of Technology of Mobile App Development ( React Native ) ",
-            image: Mobile_App_Development
-        },
-        {
-            name: "Software Engineering Internship",
-            description: "Certificate of Experience in recognition of exemplary work by VentureDive after completing React Native Mobile Development Internship",
-            image: Software_Engineering_Internship
-        },
-        {
-            name: "4 Years Bachelors Degree Certificate",
-            description: "Completed a 4-year Bachelor of Science in Computer Science, achieving a strong cumulative GPA of 3.47 on a 4.0 scale",
-            image: BSCS
-        }
-    ];
-
+  
     return (
         <div className="bg-white">
             {/* Hero Section */}
@@ -70,31 +159,29 @@ const Home = () => {
 
                             <div className="mb-4 sm:mb-6">
                                 <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                                    Turning Vision Into Reality
+                                    Excellence in Product Engineering, Design & Development
                                 </h1>
                             </div>
 
 
                             <div className="mb-6 sm:mb-8">
                                 <p className="text-gray-600 text-base sm:text-lg">
-                                    A multidisciplinary professional specializing in Graphic Design,
-                                    Full-Stack Development, and Virtual Assistance. I transform ideas
-                                    into impactful solutions that drive success.
+                                    A passionate Computer Science graduate specializing in product engineering, design, and development. With a solid foundation in modern technology, I excels at solving complex problems and crafting innovative solutions.
                                 </p>
                             </div>
 
                             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12">
-                                <Link
-                                    to="/development-and-programming"
+                                <a
+                                    href="#projects"
                                     className="bg-[#03b296] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center justify-center sm:justify-start gap-2 hover:opacity-90 transition-all duration-200"
                                 >
-                                    View Services
-                                </Link>
+                                    View My Projects
+                                </a>
                                 <a
-                                    href="#featured-projects"
+                                    href="#contact"
                                     className="bg-white text-gray-900 px-4 sm:px-6 py-2 sm:py-3 rounded-lg border border-gray-300 flex items-center justify-center sm:justify-start gap-2 hover:bg-gray-50 transition-all duration-200"
                                 >
-                                    See My Work
+                                    Get in Touch
                                 </a>
                             </div>
                         </div>
@@ -131,38 +218,10 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Featured Projects Section */}
-            {/* <section id="featured-projects" className="py-16 text-center">
-                <div className="container mx-auto px-4 sm:px-8 lg:px-24">
-                    <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-12 text-center ">
-
-                        Featured Projects
-                    </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {getRandomProjects().map((project, index) => (
-                            <div key={index} className="bg-gray-50 p-6 rounded-lg shadow-lg text-center">
-                                <div className="text-sm text-[#03b296] mb-2">{project.category}</div>
-                                <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-                                <p className="text-gray-600 mb-4 text-center">{project.description}</p>
-                                <div className="flex flex-wrap justify-center  gap-2">
-                                    {project.tech.map((tech, i) => (
-                                        <span
-                                            key={i}
-                                            className="bg-gray-200 px-3 py-1 rounded-full text-sm"
-                                        >
-                                            {tech}
-                                        </span>
-                                    ))}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section> */}
-            <Projects projects={ProjectsJSON} />
+            <Projects projects={FeaturedProjects} />
 
             <ClientsFeedback feedbacks={Clients_Feedback} />
-            <Certificates certificates={certificatesData} />
+            <Highlights />
         </div>
     );
 };

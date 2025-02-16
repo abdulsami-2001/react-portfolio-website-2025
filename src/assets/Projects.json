@@ -1,23 +1,56 @@
 [
     {
+        "name": "Graphic Designer for Social Media Posts and Short Videos",
+        "description": "Create eye-catching designs and short videos while staying true to their brand guidelines.",
+        "technologies": [
+            "Canva",
+            "LinkedIn",
+            "Poster Design",
+            "Graphic Design"
+        ],
+        "label": "Graphic_Design",
+        "links": {
+            "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
+        },
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
+    },
+    {
+        "name": "YouTube Thumbnail Specialist 🎯🎥",
+        "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch. Using a strong understanding of visual storytelling, I created thumbnails that aligned with the content's theme and tone, ensuring they stood out in crowded feeds. ",
+        "technologies": [
+            "Canva",
+            "Youtube",
+            "brand identity",
+            "Adobe Photoshop",
+            "Graphic Designer",
+            "Youtube Thumbnail"
+        ],
+        "label": "Graphic_Design",
+        "links": {
+            "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
+        },
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
+    },
+    {
         "name": "Fan Sounds for Sleep",
         "description": "Developed an app for improved sleep and concentration.",
         "technologies": [
+            "Git",
             "React Native",
-            "React Native Navigation",
             "React",
             "JavaScript",
             "Firebase",
-            "Git",
-            "FB SDK Next",
             "FB Ads",
-            "Google Admob SDK"
+            "FB SDK Next",
+            "Google Admob SDK",
+            "React Native Navigation"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://play.google.com/store/apps/details?id=com.bednapfansound",
             "secondary": "https://drive.google.com/file/d/1L7hX36FOB8a_JoxV9WkGCXqNznjNiLCt/view"
-        }
+        },
+        "image": "/fansounds.png"
     },
     {
         "name": "QR Code and Barcode Scanner",
@@ -35,11 +68,12 @@
             "Facebook SDK",
             "fbsdk-next"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://play.google.com/store/apps/details?id=com.qr.and.barcode.scanner.usa",
             "secondary": "https://drive.google.com/file/d/1GcmbnXslqY6PeZqIHUO-lPkfKG3jUg3o/view?usp=sharing"
-        }
+        },
+        "image": "/qrcode.png"
     },
     {
         "name": "Temp Mail System",
@@ -56,11 +90,12 @@
             "Google Admob SDK",
             "API of 1secmail.com"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://play.google.com/store/apps/details?id=com.elitetempmail",
             "secondary": "https://drive.google.com/file/d/1lPtI7kQwCNAVmfDLL01KSKpiJo3yHngy/view?usp=sharing"
-        }
+        },
+        "image": "/tempmail.png"
     },
     {
         "name": "React Portfolio Website",
@@ -73,10 +108,11 @@
             "Babel",
             "Webpack"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://skillfulsami.netlify.app"
-        }
+        },
+        "image": "/portfolio.png"
     },
     {
         "name": "Restaurant Landing Page",
@@ -89,10 +125,11 @@
             "Babel",
             "Webpack"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://react-restaurant-landing-page-by-sami.netlify.app"
-        }
+        },
+        "image": "/restaurant.png"
     },
     {
         "name": "20 Testers Closed Testing",
@@ -112,11 +149,12 @@
             "Facebook SDK",
             "fbsdknext"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://play.google.com/store/apps/details?id=com.closedtesting",
             "secondary": "https://drive.google.com/file/d/1zgQo60PU-NhmIITSSMllpaHsovBKRqw9/view?usp=sharing"
-        }
+        },
+        "image": "/closedtesting.png"
     },
     {
         "name": "Green Screen - Chroma Key",
@@ -131,11 +169,12 @@
             "GitHub",
             "Google Admob SDK"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://play.google.com/store/apps/details?id=com.greenscreen",
             "secondary": "https://drive.google.com/file/d/1cu97au07bTmAI5XPkPLGf6JR5VzWT3cA/view?usp=sharing"
-        }
+        },
+        "image": "/greenscreen.png"
     },
     {
         "name": "Text Repeater - Duplicate Text",
@@ -153,11 +192,12 @@
             "Facebook SDK",
             "fbsdk-next"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://play.google.com/store/apps/details?id=com.textrepeater.repeattext.repeater",
             "secondary": "https://drive.google.com/file/d/11k8_duzikdwOOLSm6dtPNmDO3uum4dBH/view?usp=sharing"
-        }
+        },
+        "image": "/textrepeater.png"
     },
     {
         "name": "Recharge Tax Calculator",
@@ -173,10 +213,11 @@
             "FB Ads",
             "Google Admob SDK"
         ],
-        "label": "Development_Programming",
+        "label": "Development_and_Programming",
         "links": {
             "primary": "https://play.google.com/store/apps/details?id=com.ptasimsrechargetaxes",
             "secondary": "https://drive.google.com/file/d/1rXYqNhEBT7OTuVlHG3d9eoHKm__ALmyQ/view"
-        }
+        },
+        "image": "/recharge.jpg"
     }
 ]

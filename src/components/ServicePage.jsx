@@ -5,6 +5,7 @@ import Projects from './Projects';
 import ClientsFeedback from './ClientsFeedback';
 import Clients_Feedback from '../assets/Clients_Feedback.json';
 import ProjectsJSON from '../assets/Projects.json';
+import Highlights from './Highlights';
 
 
 const ServicePage = ({ title, heading, description, skills, projects, animation, path }) => {
@@ -20,6 +21,11 @@ const ServicePage = ({ title, heading, description, skills, projects, animation,
         (review) => review.clientServiceLabel === pathMapping[path]
     );
 
+    // Filter porjects based on the selected path
+    const filteredPorjects = ProjectsJSON.filter(
+        (porject) => porject.label === pathMapping[path]
+    );
+
     return (
         <>
             <Hero
@@ -29,8 +35,11 @@ const ServicePage = ({ title, heading, description, skills, projects, animation,
                 animation={animation}
             />
             <Skills skills={skills} />
-            <Projects projects={ProjectsJSON} />
+            <Projects projects={filteredPorjects} />
             <ClientsFeedback feedbacks={filteredReviews} />
+            <Highlights />
+
+
         </>
     );
 };

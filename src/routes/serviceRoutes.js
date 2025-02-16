@@ -77,7 +77,7 @@ export const serviceRoutes = {
                 tech: ["Node.js", "Express", "Redis", "Docker"]
             }
         ],
-        animation: "Development_Programming" // You'll need this animation
+        animation: "Development_and_Programming" // You'll need this animation
     },
     "virtual-assistant": {
         title: "VIRTUAL ASSISTANT SPECIALIST",
