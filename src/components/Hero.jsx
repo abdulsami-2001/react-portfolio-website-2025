@@ -1,8 +1,17 @@
 import React from 'react';
-import Graphic_Design from '../assets/Graphic_Design.json'
 import Lottie from 'lottie-react';
+import Graphic_Design from '../assets/Graphic_Design.json'
+import Development_Programming from '../assets/Development_Programming.json'
+import Virtual_Assistant from '../assets/Virtual_Assistant.json'
 
-const HeroSection = () => {
+const Hero = ({ title, heading, description, animation }) => {
+    // Import all animations
+    const animations = {
+        Graphic_Design: Graphic_Design,
+        Development_Programming: Development_Programming,
+        Virtual_Assistant: Virtual_Assistant
+    };
+
     return (
         <section className="bg-white py-8 sm:py-16">
             <div className="container mx-auto px-4 sm:px-8 lg:px-24">
@@ -10,19 +19,19 @@ const HeroSection = () => {
                     <div className="text-left">
                         <div className="mb-3 sm:mb-4">
                             <div className="bg-gray-100 inline-block px-3 sm:px-4 py-2 rounded-lg">
-                                <strong className="text-black text-sm sm:text-base">VISIONARY GRAPHIC DESIGNER</strong>
+                                <strong className="text-black text-sm sm:text-base">{title}</strong>
                             </div>
                         </div>
 
                         <div className="mb-4 sm:mb-6">
                             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                                Designing Experiences That Inspire
+                                {heading}
                             </h1>
                         </div>
 
                         <div className="mb-6 sm:mb-8">
                             <p className="text-gray-600 text-base sm:text-lg">
-                                I specialize in creating visually stunning, user-centered designs that make a lasting impact. From branding to interactive UI/UX design, let's bring your ideas to life with creativity and innovation.
+                                {description}
                             </p>
                         </div>
 
@@ -40,21 +49,12 @@ const HeroSection = () => {
                                 Get in Touch
                             </a>
                         </div>
-
-                        {/* <div className="flex items-center gap-3 sm:gap-4">
-                            <img
-                                src="/path/to/your/image.png"
-                                alt="Avatar Group"
-                                className="w-20 sm:w-24"
-                            />
-                            <p className="text-gray-600 text-sm sm:text-base">Trusted by 50+ clients worldwide.</p>
-                        </div> */}
                     </div>
 
                     <div className="flex justify-center lg:justify-end">
                         <div className="w-full max-w-lg">
                             <Lottie
-                                animationData={Graphic_Design}
+                                animationData={animations[animation]}
                                 loop={true}
                                 autoplay={true}
                                 className="w-full h-full"
@@ -67,4 +67,4 @@ const HeroSection = () => {
     );
 };
 
-export default HeroSection  
+export default Hero;

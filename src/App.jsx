@@ -1,54 +1,30 @@
-import React from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './pages/Home';
+import ServicePage from './components/ServicePage';
+import { serviceRoutes } from './routes/serviceRoutes';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 const App = () => {
-  const skills = [
-    "Graphic Design",
-    "Social Media Content",
-    "Canva",
-    "Brand Identity & Guidelines",
-    "Social Media Design",
-    "Social Media Graphic",
-    "Presentation Design",
-    "Adobe Creative Suite",
-    "Poster Design",
-    "Social Media Imagery",
-    "Adobe Photoshop",
-    "Content Creation",
-    "Social Media Account Setup",
-    "Branding",
-    "Social Media Carousel"
-  ];
-
-  const projects = [
-    {
-      title: "Brand Identity Package",
-      description: "Complete branding solution for a startup including logo, color palette, and typography",
-      tech: ["Adobe Illustrator", "Canva", "Brand Guidelines"]
-    },
-    {
-      title: "Social Media Campaign",
-      description: "Series of cohesive social media posts for a fitness influencer",
-      tech: ["Adobe Photoshop", "Canva", "Instagram Templates"]
-    },
-    {
-      title: "Product Packaging Design",
-      description: "Eye-catching packaging design for organic skincare line",
-      tech: ["3D Mockups", "Adobe Dimension", "Print Design"]
-    }
-  ];
-
   return (
-    <>
+    <Router>
       <Header />
-      <Hero />
-      <Skills skills={skills} />
-      <Projects projects={projects} />
-    </>
-  )
-}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {Object.keys(serviceRoutes).map(path => (
+          <Route
+            key={path}
+            path={`/${path}`}
+            element={<ServicePage {...serviceRoutes[path]} path={path} />}
+          />
+        ))}
+      </Routes>
+      <Contact />
+      <Footer />
+    </Router>
+  );
+};
 
-export default App
+export default App;

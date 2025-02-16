@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Fan Sounds for Sleep",
+        "description": "Developed an app for improved sleep and concentration.",
+        "technologies": [
+            "React Native",
+            "React Native Navigation",
+            "React",
+            "JavaScript",
+            "Firebase",
+            "Git",
+            "FB SDK Next",
+            "FB Ads",
+            "Google Admob SDK"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://play.google.com/store/apps/details?id=com.bednapfansound",
+            "secondary": "https://drive.google.com/file/d/1L7hX36FOB8a_JoxV9WkGCXqNznjNiLCt/view"
+        }
+    },
+    {
+        "name": "QR Code and Barcode Scanner",
+        "description": "Developed an app that allows users to scan and generate QR codes and barcodes.",
+        "technologies": [
+            "React Native",
+            "React Native Navigation",
+            "React",
+            "JavaScript",
+            "Firebase",
+            "Firebase Database",
+            "Git",
+            "GitHub",
+            "Google Admob SDK",
+            "Facebook SDK",
+            "fbsdk-next"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://play.google.com/store/apps/details?id=com.qr.and.barcode.scanner.usa",
+            "secondary": "https://drive.google.com/file/d/1GcmbnXslqY6PeZqIHUO-lPkfKG3jUg3o/view?usp=sharing"
+        }
+    },
+    {
+        "name": "Temp Mail System",
+        "description": "Developed an app using React Native to provide disposable email addresses.",
+        "technologies": [
+            "React Native",
+            "React Native Navigation",
+            "React",
+            "JavaScript",
+            "Firebase",
+            "Git",
+            "FB SDK Next",
+            "FB Ads",
+            "Google Admob SDK",
+            "API of 1secmail.com"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://play.google.com/store/apps/details?id=com.elitetempmail",
+            "secondary": "https://drive.google.com/file/d/1lPtI7kQwCNAVmfDLL01KSKpiJo3yHngy/view?usp=sharing"
+        }
+    },
+    {
+        "name": "React Portfolio Website",
+        "description": "Developed a React Application which is a portfolio website for myself to showcase.",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Babel",
+            "Webpack"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://skillfulsami.netlify.app"
+        }
+    },
+    {
+        "name": "Restaurant Landing Page",
+        "description": "Developed a React Application which is a restaurant landing page website.",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Babel",
+            "Webpack"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://react-restaurant-landing-page-by-sami.netlify.app"
+        }
+    },
+    {
+        "name": "20 Testers Closed Testing",
+        "description": "Developed an app to help Android developers meet Google Play Console's requirement of 20 testers for closed testing.",
+        "technologies": [
+            "React Native",
+            "React Native Navigation",
+            "React",
+            "JavaScript",
+            "Firebase",
+            "Firebase Database",
+            "Firebase Storage",
+            "Firebase Authentication",
+            "Git",
+            "GitHub",
+            "Google Admob SDK",
+            "Facebook SDK",
+            "fbsdknext"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://play.google.com/store/apps/details?id=com.closedtesting",
+            "secondary": "https://drive.google.com/file/d/1zgQo60PU-NhmIITSSMllpaHsovBKRqw9/view?usp=sharing"
+        }
+    },
+    {
+        "name": "Green Screen - Chroma Key",
+        "description": "Developed an app that allows users to set a single screen color for video editing.",
+        "technologies": [
+            "React Native",
+            "React Native Navigation",
+            "React",
+            "JavaScript",
+            "Firebase",
+            "Git",
+            "GitHub",
+            "Google Admob SDK"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://play.google.com/store/apps/details?id=com.greenscreen",
+            "secondary": "https://drive.google.com/file/d/1cu97au07bTmAI5XPkPLGf6JR5VzWT3cA/view?usp=sharing"
+        }
+    },
+    {
+        "name": "Text Repeater - Duplicate Text",
+        "description": "Developed an app that allows users to create repeated, blank, or random text.",
+        "technologies": [
+            "React Native",
+            "React Native Navigation",
+            "React",
+            "JavaScript",
+            "Firebase",
+            "Firebase Database",
+            "Git",
+            "GitHub",
+            "Google Admob SDK",
+            "Facebook SDK",
+            "fbsdk-next"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://play.google.com/store/apps/details?id=com.textrepeater.repeattext.repeater",
+            "secondary": "https://drive.google.com/file/d/11k8_duzikdwOOLSm6dtPNmDO3uum4dBH/view?usp=sharing"
+        }
+    },
+    {
+        "name": "Recharge Tax Calculator",
+        "description": "Developed an app to calculate SIM card recharge tax in Pakistan.",
+        "technologies": [
+            "React Native",
+            "React Native Navigation",
+            "React",
+            "JavaScript",
+            "Firebase",
+            "Git",
+            "FB SDK Next",
+            "FB Ads",
+            "Google Admob SDK"
+        ],
+        "label": "Development_Programming",
+        "links": {
+            "primary": "https://play.google.com/store/apps/details?id=com.ptasimsrechargetaxes",
+            "secondary": "https://drive.google.com/file/d/1rXYqNhEBT7OTuVlHG3d9eoHKm__ALmyQ/view"
+        }
+    }
+]
