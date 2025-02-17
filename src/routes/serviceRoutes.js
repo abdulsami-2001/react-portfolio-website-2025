@@ -40,9 +40,9 @@ export const serviceRoutes = {
         animation: "Graphic_Design" // Reference to your Lottie animation file
     },
     "development-and-programming": {
-        title: "FULL-STACK DEVELOPER",
+        title: "PRODUCT ENGINEER | FULL-STACK DEV",
         heading: "Building Digital Solutions",
-        description: "Expert in creating robust, scalable applications using modern technologies. From frontend design to backend architecture, I deliver comprehensive solutions that drive business growth.",
+        description: "I specialize in end-to-end product engineering, seamlessly integrating frontend design with backend architecture. Using modern technologies, I build reliable, scalable solutions that drive business success and user engagement.",
         skills: [
             "React.js",
             "Node.js",

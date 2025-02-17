@@ -28,7 +28,7 @@ const Header = () => {
                         <img
                             src={Muhammad_Sami}
                             alt="Muhammad Sami"
-                            className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full shadow-lg border-2 border-[#03b296]"
+                            className="w-16 h-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full shadow-lg border-2 border-[#03b296]"
                         />
                         <div className="flex flex-col text-center sm:text-left">
                             <span className="text-gray-800 font-extrabold text-lg sm:text-2xl lg:text-3xl tracking-wide">
@@ -76,7 +76,7 @@ const Header = () => {
                         The clients' countries I worked with
                     </h2>
 
-                    <Marquee gradient={false} speed={50} loop={0} className="flex gap-6">
+                    <Marquee gradient={false} speed={50} pauseOnHover={true} loop={0} className="flex gap-6">
                         {countryCodes.map((code, index) => (
                             <div key={index} className="mx-4 flex items-center space-x-2">
                                 <img

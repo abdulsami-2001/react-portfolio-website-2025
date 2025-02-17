@@ -1,10 +1,7 @@
 // Home.jsx
 import React from 'react';
 import Muhammad_Sami from '../assets/Muhammad_Sami.png';
-import { Link } from 'react-router-dom';
 import Marquee from 'react-fast-marquee';
-import Certificates from '../components/Certificates';
-
 import Clients_Feedback from '../assets/Clients_Feedback.json';
 import ClientsFeedback from '../components/ClientsFeedback';
 import Projects from '../components/Projects';
@@ -16,12 +13,13 @@ const Home = () => {
     const FeaturedProjects = [
         {
             "name": "Graphic Designer for Social Media Posts and Short Videos",
-            "description": "Create eye-catching designs and short videos while staying true to their brand guidelines.",
+            "description": "Created eye-catching designs and short videos while staying true to their brand guidelines.",
             "technologies": [
                 "Canva",
                 "LinkedIn",
                 "Poster Design",
-                "Graphic Design"
+                "Graphic Design",
+                "Brand Guidelines"
             ],
             "label": "Graphic_Design",
             "links": {
@@ -53,6 +51,7 @@ const Home = () => {
                 "Canva",
                 "Youtube",
                 "brand identity",
+                "Brand Guidelines",
                 "Adobe Photoshop",
                 "Graphic Designer",
                 "Youtube Thumbnail"
@@ -141,7 +140,7 @@ const Home = () => {
     ];
 
 
-  
+
     return (
         <div className="bg-white">
             {/* Hero Section */}
@@ -192,7 +191,7 @@ const Home = () => {
                                 <img
                                     src={Muhammad_Sami}
                                     alt="Muhammad Sami"
-                                    className="relative w-full h-full lg:w-96 lg:h-96 rounded-xl shadow-xl border-2 border-[#03b296] "
+                                    className="relative w-full h-full lg:w-96 lg:h-96  rounded-xl shadow-xl border-2 border-[#03b296] "
                                 />
                             </div>
                         </div>
@@ -209,7 +208,7 @@ const Home = () => {
                     <div className="flex justify-center">
                         <Marquee gradient={false} speed={50} pauseOnHover loop={0}>
                             {personalSkills.map((skill, index) => (
-                                <div key={index} className="bg-white px-6 py-3 mx-4 my-4 rounded-lg shadow-md text-gray-800 text-sm sm:text-base whitespace-nowrap text-center">
+                                <div key={index} className="bg-white px-6 py-3 mx-3 my-4 rounded-lg shadow-md text-gray-800 text-sm sm:text-base whitespace-nowrap text-center">
                                     {skill}
                                 </div>
                             ))}
