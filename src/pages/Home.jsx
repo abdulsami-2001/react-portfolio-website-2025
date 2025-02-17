@@ -12,7 +12,41 @@ const Home = () => {
 
     const FeaturedProjects = [
         {
-            "name": "Graphic Designer for Social Media Posts and Short Videos",
+            "name": "Instagram Advertisment Post",
+            "description": "Created instagram advertisment post while staying true to their brand guidelines.",
+            "technologies": [
+                "Canva",
+                "Instagram",
+                "Poster Design",
+                "Graphic Design",
+                "Brand Guidelines"
+            ],
+            "label": "Graphic_Design",
+            "links": {
+                "primary": "https://www.behance.net/gallery/219469257/Social-Media-Content-Creator-Ads-Expert"
+            },
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/937ec4219469257.67b315fbba336.png"
+        },
+        {
+            "name": "YouTube Thumbnail Specialist 🎯🎥",
+            "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch. Using a strong understanding of visual storytelling, I created thumbnails that aligned with the content's theme and tone, ensuring they stood out in crowded feeds. ",
+            "technologies": [
+                "Canva",
+                "Youtube",
+                "brand identity",
+                "Adobe Photoshop",
+                "Brand Guidelines",
+                "Graphic Designer",
+                "Youtube Thumbnail"
+            ],
+            "label": "Graphic_Design",
+            "links": {
+                "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
+            },
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
+        },
+        {
+            "name": "Graphic Designer for Social Media (LinkedIn) Posts and Short Videos",
             "description": "Created eye-catching designs and short videos while staying true to their brand guidelines.",
             "technologies": [
                 "Canva",
@@ -27,41 +61,7 @@ const Home = () => {
             },
             "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
         },
-        {
-            "name": "Restaurant Landing Page",
-            "description": "Developed a React Application which is a restaurant landing page website.",
-            "technologies": [
-                "React",
-                "JavaScript",
-                "Git",
-                "GitHub",
-                "Babel",
-                "Webpack"
-            ],
-            "label": "Development_and_Programming",
-            "links": {
-                "primary": "https://react-restaurant-landing-page-by-sami.netlify.app"
-            },
-            "image": "/restaurant.png"
-        },
-        {
-            "name": "YouTube Thumbnail Specialist 🎯🎥",
-            "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch. Using a strong understanding of visual storytelling, I created thumbnails that aligned with the content's theme and tone, ensuring they stood out in crowded feeds. ",
-            "technologies": [
-                "Canva",
-                "Youtube",
-                "brand identity",
-                "Brand Guidelines",
-                "Adobe Photoshop",
-                "Graphic Designer",
-                "Youtube Thumbnail"
-            ],
-            "label": "Graphic_Design",
-            "links": {
-                "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
-            },
-            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
-        },
+
         {
             "name": "Fan Sounds for Sleep",
             "description": "Developed an app for improved sleep and concentration.",
@@ -82,6 +82,23 @@ const Home = () => {
                 "secondary": "https://drive.google.com/file/d/1L7hX36FOB8a_JoxV9WkGCXqNznjNiLCt/view"
             },
             "image": "/fansounds.png"
+        },
+        {
+            "name": "Restaurant Landing Page",
+            "description": "Developed a React Application which is a restaurant landing page website.",
+            "technologies": [
+                "React",
+                "JavaScript",
+                "Git",
+                "GitHub",
+                "Babel",
+                "Webpack"
+            ],
+            "label": "Development_and_Programming",
+            "links": {
+                "primary": "https://react-restaurant-landing-page-by-sami.netlify.app"
+            },
+            "image": "/restaurant.png"
         },
         {
             "name": "QR Code and Barcode Scanner",
@@ -106,29 +123,6 @@ const Home = () => {
             },
             "image": "/qrcode.png"
         },
-        {
-            "name": "Temp Mail System",
-            "description": "Developed an app using React Native to provide disposable email addresses.",
-            "technologies": [
-                "React Native",
-                "React Native Navigation",
-                "React",
-                "JavaScript",
-                "Firebase",
-                "Git",
-                "FB SDK Next",
-                "FB Ads",
-                "Google Admob SDK",
-                "API of 1secmail.com"
-            ],
-            "label": "Development_and_Programming",
-            "links": {
-                "primary": "https://play.google.com/store/apps/details?id=com.elitetempmail",
-                "secondary": "https://drive.google.com/file/d/1lPtI7kQwCNAVmfDLL01KSKpiJo3yHngy/view?usp=sharing"
-            },
-            "image": "/tempmail.png"
-        },
-
     ]
 
 

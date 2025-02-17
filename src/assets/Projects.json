@@ -1,19 +1,33 @@
 [
     {
-        "name": "Graphic Designer for Social Media Posts and Short Videos",
-        "description": "Created eye-catching designs and short videos while staying true to their brand guidelines.",
+        "name": "Verification and Editing - VA Task",
+        "description": "As a virtual assistant, I worked on receipts and other logical corrections, and also edited them using Photoshop",
+        "technologies": [
+            "VA",
+            "Virtual Assistant",
+            "Adobe Photoshop"
+        ],
+        "label": "Virtual_Assistant",
+        "links": {
+            "primary": "https://www.fiverr.com/users/abdulsamisam/portfolio/NWE2ZjMwOGQwMDAwMDAwMzg4MTc2Mjk3"
+        },
+        "image": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/deliveries/91634380/original/buy-photos-online-photoshopping_ws_1517233622.jpg"
+    },
+    {
+        "name": "Instagram Advertisment Post",
+        "description": "Created instagram advertisment post while staying true to their brand guidelines.",
         "technologies": [
             "Canva",
-            "LinkedIn",
+            "Instagram",
             "Poster Design",
             "Graphic Design",
             "Brand Guidelines"
         ],
         "label": "Graphic_Design",
         "links": {
-            "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
+            "primary": "https://www.behance.net/gallery/219469257/Social-Media-Content-Creator-Ads-Expert"
         },
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/937ec4219469257.67b315fbba336.png"
     },
     {
         "name": "YouTube Thumbnail Specialist 🎯🎥",
@@ -34,8 +48,74 @@
         "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
     },
     {
+        "name": "Graphic Designer for Social Media (LinkedIn) Posts and Short Videos",
+        "description": "Created eye-catching designs and short videos while staying true to their brand guidelines.",
+        "technologies": [
+            "Canva",
+            "LinkedIn",
+            "Poster Design",
+            "Graphic Design",
+            "Brand Guidelines"
+        ],
+        "label": "Graphic_Design",
+        "links": {
+            "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
+        },
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
+    },
+    {
+        "name": "Thumbnail for upwork / fiverr gig",
+        "description": "Created eye-catching thumbnail that stood out in crowded feeds",
+        "technologies": [
+            "Canva",
+            "upwork",
+            "fiverr",
+            "Thumbnail",
+            "Poster Design",
+            "Graphic Design"
+        ],
+        "label": "Graphic_Design",
+        "links": {
+            "primary": "https://www.behance.net/gallery/219472007/Thumbnail-for-upwork-fiverr-gig"
+        },
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/33348a219472007.67b31e132e4b8.png"
+    },
+    {
+        "name": "Email Banner",
+        "description": "Email Banner for webinar promotion while staying true to their brand guidelines.",
+        "technologies": [
+            "Canva",
+            "Email",
+            "Poster Design",
+            "Graphic Design",
+            "Brand Guidelines"
+        ],
+        "label": "Graphic_Design",
+        "links": {
+            "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
+        },
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/242306218382733.67a0dce986b7c.png"
+    },
+    {
+        "name": "Thumbnail Design",
+        "description": "Thumbnail design for fiverr / upwork project",
+        "technologies": [
+            "Canva",
+            "upwork",
+            "fiverr",
+            "Thumbnail",
+            "Poster Design",
+            "Graphic Design"
+        ],
+        "label": "Graphic_Design",
+        "links": {
+            "primary": "https://www.behance.net/gallery/219473381/Thumbnail-design-for-fiverr-upwork-project"
+        },
+        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ac56b9219473381.67b322001f07f.png"
+    },
+    {
         "name": "Fan Sounds for Sleep",
-        "description": "Developed an app for improved sleep and concentration.",
+        "description": "Developed an app for improved sleep and concentration",
         "technologies": [
             "Git",
             "React Native",
@@ -56,7 +136,7 @@
     },
     {
         "name": "QR Code and Barcode Scanner",
-        "description": "Developed an app that allows users to scan and generate QR codes and barcodes.",
+        "description": "Developed an app that allows users to scan and generate QR codes and barcodes",
         "technologies": [
             "React Native",
             "React Native Navigation",
@@ -79,7 +159,7 @@
     },
     {
         "name": "Temp Mail System",
-        "description": "Developed an app using React Native to provide disposable email addresses.",
+        "description": "Developed an app using React Native to provide disposable email addresses",
         "technologies": [
             "React Native",
             "React Native Navigation",
@@ -101,7 +181,7 @@
     },
     {
         "name": "React Portfolio Website",
-        "description": "Developed a React Application which is a portfolio website for myself to showcase.",
+        "description": "Developed a React Application which is a portfolio website for myself to showcase",
         "technologies": [
             "React",
             "JavaScript",
@@ -118,7 +198,7 @@
     },
     {
         "name": "Restaurant Landing Page",
-        "description": "Developed a React Application which is a restaurant landing page website.",
+        "description": "Developed a React Application which is a restaurant landing page website",
         "technologies": [
             "React",
             "JavaScript",
@@ -135,7 +215,7 @@
     },
     {
         "name": "20 Testers Closed Testing",
-        "description": "Developed an app to help Android developers meet Google Play Console's requirement of 20 testers for closed testing.",
+        "description": "Developed an app to help Android developers meet Google Play Console's requirement of 20 testers for closed testing",
         "technologies": [
             "React Native",
             "React Native Navigation",
@@ -160,7 +240,7 @@
     },
     {
         "name": "Green Screen - Chroma Key",
-        "description": "Developed an app that allows users to set a single screen color for video editing.",
+        "description": "Developed an app that allows users to set a single screen color for video editing",
         "technologies": [
             "React Native",
             "React Native Navigation",
@@ -180,7 +260,7 @@
     },
     {
         "name": "Text Repeater - Duplicate Text",
-        "description": "Developed an app that allows users to create repeated, blank, or random text.",
+        "description": "Developed an app that allows users to create repeated, blank, or random text",
         "technologies": [
             "React Native",
             "React Native Navigation",
@@ -203,7 +283,7 @@
     },
     {
         "name": "Recharge Tax Calculator",
-        "description": "Developed an app to calculate SIM card recharge tax in Pakistan.",
+        "description": "Developed an app to calculate SIM card recharge tax in Pakistan",
         "technologies": [
             "React Native",
             "React Native Navigation",
