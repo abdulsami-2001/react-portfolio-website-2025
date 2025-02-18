@@ -14,8 +14,8 @@ const Header = () => {
     const location = useLocation();
 
     const navigation = [
-        { path: '/graphic-design', label: 'Graphic Design' },
         { path: '/development-and-programming', label: 'Development & Programming' },
+        { path: '/graphic-design', label: 'Graphic Design' },
         { path: '/virtual-assistant', label: 'Virtual Assistant' }
     ];
 

@@ -12,57 +12,6 @@ const Home = () => {
 
     const FeaturedProjects = [
         {
-            "name": "Instagram Advertisment Post",
-            "description": "Created instagram advertisment post while staying true to their brand guidelines.",
-            "technologies": [
-                "Canva",
-                "Instagram",
-                "Poster Design",
-                "Graphic Design",
-                "Brand Guidelines"
-            ],
-            "label": "Graphic_Design",
-            "links": {
-                "primary": "https://www.behance.net/gallery/219469257/Social-Media-Content-Creator-Ads-Expert"
-            },
-            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/937ec4219469257.67b315fbba336.png"
-        },
-        {
-            "name": "YouTube Thumbnail Specialist 🎯🎥",
-            "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch. Using a strong understanding of visual storytelling, I created thumbnails that aligned with the content's theme and tone, ensuring they stood out in crowded feeds. ",
-            "technologies": [
-                "Canva",
-                "Youtube",
-                "brand identity",
-                "Adobe Photoshop",
-                "Brand Guidelines",
-                "Graphic Designer",
-                "Youtube Thumbnail"
-            ],
-            "label": "Graphic_Design",
-            "links": {
-                "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
-            },
-            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
-        },
-        {
-            "name": "Graphic Designer for Social Media (LinkedIn) Posts and Short Videos",
-            "description": "Created eye-catching designs and short videos while staying true to their brand guidelines.",
-            "technologies": [
-                "Canva",
-                "LinkedIn",
-                "Poster Design",
-                "Graphic Design",
-                "Brand Guidelines"
-            ],
-            "label": "Graphic_Design",
-            "links": {
-                "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
-            },
-            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
-        },
-
-        {
             "name": "Fan Sounds for Sleep",
             "description": "Developed an app for improved sleep and concentration.",
             "technologies": [
@@ -122,6 +71,56 @@ const Home = () => {
                 "secondary": "https://drive.google.com/file/d/1GcmbnXslqY6PeZqIHUO-lPkfKG3jUg3o/view?usp=sharing"
             },
             "image": "/qrcode.png"
+        },
+        {
+            "name": "Instagram Advertisment Post",
+            "description": "Created instagram advertisment post while staying true to their brand guidelines.",
+            "technologies": [
+                "Canva",
+                "Instagram",
+                "Poster Design",
+                "Graphic Design",
+                "Brand Guidelines"
+            ],
+            "label": "Graphic_Design",
+            "links": {
+                "primary": "https://www.behance.net/gallery/219469257/Social-Media-Content-Creator-Ads-Expert"
+            },
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/937ec4219469257.67b315fbba336.png"
+        },
+        {
+            "name": "YouTube Thumbnail Specialist 🎯🎥",
+            "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch. Using a strong understanding of visual storytelling, I created thumbnails that aligned with the content's theme and tone, ensuring they stood out in crowded feeds. ",
+            "technologies": [
+                "Canva",
+                "Youtube",
+                "brand identity",
+                "Adobe Photoshop",
+                "Brand Guidelines",
+                "Graphic Designer",
+                "Youtube Thumbnail"
+            ],
+            "label": "Graphic_Design",
+            "links": {
+                "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
+            },
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
+        },
+        {
+            "name": "Graphic Designer for Social Media (LinkedIn) Posts and Short Videos",
+            "description": "Created eye-catching designs and short videos while staying true to their brand guidelines.",
+            "technologies": [
+                "Canva",
+                "LinkedIn",
+                "Poster Design",
+                "Graphic Design",
+                "Brand Guidelines"
+            ],
+            "label": "Graphic_Design",
+            "links": {
+                "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
+            },
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
         },
     ]
 
