@@ -11,7 +11,7 @@
         "links": {
             "primary": "https://www.fiverr.com/users/abdulsamisam/portfolio/NWE2ZjMwOGQwMDAwMDAwMzg4MTc2Mjk3"
         },
-        "image": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/deliveries/91634380/original/buy-photos-online-photoshopping_ws_1517233622.jpg"
+        "image": "/VA.png"
     },
     {
         "name": "Instagram Advertisment Post",
@@ -27,11 +27,11 @@
         "links": {
             "primary": "https://www.behance.net/gallery/219469257/Social-Media-Content-Creator-Ads-Expert"
         },
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/937ec4219469257.67b315fbba336.png"
+        "image": "/blumm.png"
     },
     {
         "name": "YouTube Thumbnail Specialist 🎯🎥",
-        "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch. Using a strong understanding of visual storytelling, I created thumbnails that aligned with the content's theme and tone, ensuring they stood out in crowded feeds. ",
+        "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch.",
         "technologies": [
             "Canva",
             "Youtube",
@@ -45,7 +45,7 @@
         "links": {
             "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
         },
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
+        "image": "/youtube_thumbnail.png"
     },
     {
         "name": "Graphic Designer for Social Media (LinkedIn) Posts and Short Videos",
@@ -61,7 +61,7 @@
         "links": {
             "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
         },
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
+        "image": "/Instagram_post.png"
     },
     {
         "name": "Thumbnail for upwork / fiverr gig",
@@ -78,7 +78,7 @@
         "links": {
             "primary": "https://www.behance.net/gallery/219472007/Thumbnail-for-upwork-fiverr-gig"
         },
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/33348a219472007.67b31e132e4b8.png"
+        "image": "/testers.png"
     },
     {
         "name": "Email Banner",
@@ -94,7 +94,7 @@
         "links": {
             "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
         },
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/242306218382733.67a0dce986b7c.png"
+        "image": "/Email_header.png"
     },
     {
         "name": "Thumbnail Design",
@@ -111,7 +111,7 @@
         "links": {
             "primary": "https://www.behance.net/gallery/219473381/Thumbnail-design-for-fiverr-upwork-project"
         },
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ac56b9219473381.67b322001f07f.png"
+        "image": "/playconsole.png"
     },
     {
         "name": "Fan Sounds for Sleep",
@@ -197,23 +197,6 @@
         "image": "/portfolio.png"
     },
     {
-        "name": "Restaurant Landing Page",
-        "description": "Developed a React Application which is a restaurant landing page website",
-        "technologies": [
-            "React",
-            "JavaScript",
-            "Git",
-            "GitHub",
-            "Babel",
-            "Webpack"
-        ],
-        "label": "Development_and_Programming",
-        "links": {
-            "primary": "https://react-restaurant-landing-page-by-sami.netlify.app"
-        },
-        "image": "/restaurant.png"
-    },
-    {
         "name": "20 Testers Closed Testing",
         "description": "Developed an app to help Android developers meet Google Play Console's requirement of 20 testers for closed testing",
         "technologies": [
@@ -237,6 +220,23 @@
             "secondary": "https://drive.google.com/file/d/1zgQo60PU-NhmIITSSMllpaHsovBKRqw9/view?usp=sharing"
         },
         "image": "/closedtesting.png"
+    },
+    {
+        "name": "Restaurant Landing Page",
+        "description": "Developed a React Application which is a restaurant landing page website",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Babel",
+            "Webpack"
+        ],
+        "label": "Development_and_Programming",
+        "links": {
+            "primary": "https://react-restaurant-landing-page-by-sami.netlify.app"
+        },
+        "image": "/restaurant.png"
     },
     {
         "name": "Green Screen - Chroma Key",
@@ -300,6 +300,6 @@
             "primary": "https://play.google.com/store/apps/details?id=com.ptasimsrechargetaxes",
             "secondary": "https://drive.google.com/file/d/1rXYqNhEBT7OTuVlHG3d9eoHKm__ALmyQ/view"
         },
-        "image": "/recharge.jpg"
+        "image": "/recharge.png"
     }
 ]

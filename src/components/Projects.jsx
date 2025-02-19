@@ -11,7 +11,7 @@ const Projects = ({ projects }) => {
                     {projects?.map((project, index) => (
                         <div
                             key={index}
-                            className="bg-gray-100 p-8 rounded-lg shadow-md flex flex-col items-center text-center space-y-6"
+                            className="bg-gray-100 p-4 rounded-lg shadow-md flex flex-col items-center text-center space-y-4"
                         >
                             {/* Project Image (if available) */}
                             {project?.image && (

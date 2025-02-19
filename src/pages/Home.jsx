@@ -86,11 +86,11 @@ const Home = () => {
             "links": {
                 "primary": "https://www.behance.net/gallery/219469257/Social-Media-Content-Creator-Ads-Expert"
             },
-            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/937ec4219469257.67b315fbba336.png"
+            "image": "/blumm.png"
         },
         {
             "name": "YouTube Thumbnail Specialist 🎯🎥",
-            "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch. Using a strong understanding of visual storytelling, I created thumbnails that aligned with the content's theme and tone, ensuring they stood out in crowded feeds. ",
+            "description": "Designing eye-catching and clickable YouTube thumbnails that not only captured attention but also sparked curiosity, driving viewers to click and watch.",
             "technologies": [
                 "Canva",
                 "Youtube",
@@ -104,7 +104,7 @@ const Home = () => {
             "links": {
                 "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
             },
-            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b3b0a219424023.67b239d4b2be4.png"
+            "image": "/youtube_thumbnail.png"
         },
         {
             "name": "Graphic Designer for Social Media (LinkedIn) Posts and Short Videos",
@@ -120,7 +120,7 @@ const Home = () => {
             "links": {
                 "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
             },
-            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/280ced218382733.67a0dce9866ff.png"
+            "image": "/Instagram_post.png"
         },
     ]
 
