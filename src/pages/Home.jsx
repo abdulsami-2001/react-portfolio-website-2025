@@ -86,7 +86,7 @@ const Home = () => {
             "links": {
                 "primary": "https://www.behance.net/gallery/219469257/Social-Media-Content-Creator-Ads-Expert"
             },
-            "image": "/blumm.png"
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c4ffd1219469257.67b6eff6139d1.png"
         },
         {
             "name": "YouTube Thumbnail Specialist 🎯🎥",
@@ -104,7 +104,7 @@ const Home = () => {
             "links": {
                 "primary": "https://www.behance.net/gallery/219424023/YouTube-Thumbnail-Specialist-"
             },
-            "image": "/youtube_thumbnail.png"
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/191950219424023.67b6010d24087.png"
         },
         {
             "name": "Graphic Designer for Social Media (LinkedIn) Posts and Short Videos",
@@ -120,7 +120,7 @@ const Home = () => {
             "links": {
                 "primary": "https://www.behance.net/gallery/218382733/Social-Media-Webinar-Ad-Posts-and-Short-Video"
             },
-            "image": "/Instagram_post.png"
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/035c91218382733.67b6044255c9d.png"
         },
     ]
 

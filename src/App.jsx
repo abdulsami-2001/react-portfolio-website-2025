@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import ServicePage from './components/ServicePage';
@@ -30,9 +30,21 @@ const App = () => {
     }
   ];
 
+  const location = useLocation();
+
+  useEffect(() => {
+    const pageTitles = {
+      '/': 'Muhammad Sami - Product Engineer',
+      '/graphic-design': 'Muhammad Sami - Graphic Design',
+      '/development-and-programming': 'Muhammad Sami - Development and Programming',
+      '/virtual-assistant': 'Muhammad Sami - Virtual Assistant',
+    };
+
+    document.title = pageTitles[location.pathname] || 'Muhammad Sami';
+  }, [location]);
 
   return (
-    <Router>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -47,7 +59,7 @@ const App = () => {
       <Certificates certificates={certificatesData} />
       <Contact />
       <Footer />
-    </Router>
+    </>
   );
 };
 

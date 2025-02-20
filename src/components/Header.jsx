@@ -73,7 +73,7 @@ const Header = () => {
                 {/* Scrolling Country Flags */}
                 <div className="mt-4 w-full  py-3">
                     <h2 className="text-center text-gray-700 font-medium text-xs sm:text-sm mb-4">
-                        The clients' countries I worked with
+                        The client belongs to one of the countries I have worked with.
                     </h2>
 
                     <Marquee gradient={false} speed={50} pauseOnHover={true} loop={0} className="flex gap-6">
