@@ -9,6 +9,12 @@ const Footer = () => {
                     <div className="flex flex-col items-center">
                         <p className="text-gray-800 font-medium text-sm sm:text-base flex items-center">
                             <Mail className="w-5 h-5 mr-2 text-[#03b296]" />
+                            <a href="mailto:contact@muhammad-sami.com" target="_blank" className="text-[#03b296] hover:underline">
+                                contact@muhammad-sami.com
+                            </a>
+                        </p>
+                        <p className="text-gray-800 font-medium text-sm sm:text-base flex items-center">
+                            <Mail className="w-5 h-5 mr-2 text-[#03b296]" />
                             <a href="mailto:muhammadsami.workspace@gmail.com" target="_blank" className="text-[#03b296] hover:underline">
                                 muhammadsami.workspace@gmail.com
                             </a>
