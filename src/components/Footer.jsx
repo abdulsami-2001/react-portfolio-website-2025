@@ -7,8 +7,8 @@ const Footer = () => {
             <div className="container mx-auto px-4 sm:px-8 lg:px-24">
                 <div className="flex flex-col items-center text-center space-y-4">
                     <div className="flex flex-col items-center">
-                        <p className="text-gray-800 font-medium text-sm sm:text-base flex items-center">
-                            <Mail className="w-5 h-5 mr-2 text-[#03b296]" />
+                        <p className="text-gray-800 font-medium mb-2 text-sm sm:text-base flex items-center">
+                            <Mail className="w-5 h-5 mr-2  text-[#03b296]" />
                             <a href="mailto:contact@muhammad-sami.com" target="_blank" className="text-[#03b296] hover:underline">
                                 contact@muhammad-sami.com
                             </a>

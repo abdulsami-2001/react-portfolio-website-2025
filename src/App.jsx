@@ -10,6 +10,7 @@ import Certificates from './components/Certificates';
 import Mobile_App_Development from './assets/Mobile_App_Development.jpeg'
 import Software_Engineering_Internship from './assets/Software_Engineering_Internship.jpeg'
 import BSCS from './assets/BSCS.jpeg'
+import WorkExperienceandEducation from './components/WorkExperienceandEducation';
 
 const App = () => {
   const certificatesData = [
@@ -56,6 +57,7 @@ const App = () => {
           />
         ))}
       </Routes>
+      <WorkExperienceandEducation />
       <Certificates certificates={certificatesData} />
       <Contact />
       <Footer />

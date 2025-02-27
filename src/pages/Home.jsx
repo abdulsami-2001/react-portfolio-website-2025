@@ -126,9 +126,9 @@ const Home = () => {
 
 
     const personalSkills = [
-        "Positive", "Disciplined", "Consistent", "Transparent", "Team Player",
+        "Positive", "Disciplined", "Consistent", "Transparency", "Team Player",
         "Critical Thinker", "Analytical Thinker", "Attention to Detail",
-        "Problem Solver", "Confident", "Updated with Trends", "Modern",
+        "Problem Solver", "Leadership", "Management", "Productive", "AI Player", "Confident", "Updated with Trends", "Modern",
         "Professional", "Tech Oriented", "Passionate", "Realistic"
     ];
 
