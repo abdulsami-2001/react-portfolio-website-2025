@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const WorkExperienceandEducation = () => {
     return (
 
-        <section className="bg-white py-8 sm:py-16 border-t border-gray-200" id="contact">
+        <section className="bg-white py-8 sm:py-16 border-t border-gray-200" >
             <div className="container mx-auto px-4 sm:px-8 lg:px-24">
                 <div className="max-w-2xl mx-auto text-center">
                     <h1 className="text-3xl sm:text-4xl font-bold  text-gray-900 mb-12">Work Experience and Education</h1>
