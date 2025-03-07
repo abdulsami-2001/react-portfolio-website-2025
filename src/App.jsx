@@ -33,16 +33,26 @@ const App = () => {
 
   const location = useLocation();
 
+  // useEffect(() => {
+  //   const pageTitles = {
+  //     '/': 'Muhammad Sami - Product Engineer',
+  //     '/graphic-design': 'Muhammad Sami - Graphic Design',
+  //     '/development-and-programming': 'Muhammad Sami - Development and Programming',
+  //     '/virtual-assistant': 'Muhammad Sami - Virtual Assistant',
+  //   };
+
+  //   document.title = pageTitles[location.pathname] || 'Muhammad Sami';
+  // }, [location]);
+  {/* uncomment it to get working things like before. Product eng , va , GD */ }
+
   useEffect(() => {
     const pageTitles = {
-      '/': 'Muhammad Sami - Product Engineer',
-      '/graphic-design': 'Muhammad Sami - Graphic Design',
-      '/development-and-programming': 'Muhammad Sami - Development and Programming',
-      '/virtual-assistant': 'Muhammad Sami - Virtual Assistant',
+      '/': 'Software Engineer - Muhammad Sami',
     };
 
-    document.title = pageTitles[location.pathname] || 'Muhammad Sami';
+    document.title = pageTitles[location.pathname] || 'Software Engineer - Muhammad Sami';
   }, [location]);
+
 
   return (
     <>

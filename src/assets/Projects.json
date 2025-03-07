@@ -283,7 +283,7 @@
     },
     {
         "name": "Recharge Tax Calculator",
-        "description": "Developed an app to calculate SIM card recharge tax in Pakistan",
+        "description": "Developed an app to calculate SIM card recharge tax",
         "technologies": [
             "React Native",
             "React Native Navigation",

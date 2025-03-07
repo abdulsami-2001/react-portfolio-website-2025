@@ -53,7 +53,7 @@ const Contact = () => {
                         <div>
                             <textarea
                                 name="message"
-                                placeholder="Message: Hey Muhammad Sami! I need your services. Are you available to work?"
+                                placeholder="Message: Hey Muhammad Sami!  want to hire you on your [ Basic or Standard or Premium ] Plan,  Are you available to work?"
                                 required
                                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#03b296] h-32"
                             ></textarea>

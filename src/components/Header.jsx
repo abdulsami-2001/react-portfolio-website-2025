@@ -14,10 +14,12 @@ const Header = () => {
     const location = useLocation();
 
     const navigation = [
-        { path: '/development-and-programming', label: 'Development & Programming' },
-        { path: '/graphic-design', label: 'Graphic Design' },
-        { path: '/virtual-assistant', label: 'Virtual Assistant' }
+        // { path: '/development-and-programming', label: 'Development & Programming' },
+        // { path: '/graphic-design', label: 'Graphic Design' },
+        // { path: '/virtual-assistant', label: 'Virtual Assistant' }
     ];
+    // uncomment it to get working things like before. Product eng , va , GD
+
 
     return (
         <header className="w-full py-4 sm:py-6 bg-white border-b border-gray-200 shadow-sm">

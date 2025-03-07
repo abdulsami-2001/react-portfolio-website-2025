@@ -23,9 +23,11 @@ const ClientsFeedback = ({ feedbacks }) => {
                                 </div>
                                 <p className="text-sm text-gray-600 italic">"{feedback.clientFeedback}"</p>
                             </div>
-                            <div className="text-xs text-gray-500 text-center mt-4">
+                            {/* <div className="text-xs text-gray-500 text-center mt-4">
                                 {feedback.clientFeedbackTime} - {feedback.clientServiceLabel.replace(/_/g, ' ')}
-                            </div>
+                            </div> */}
+                            {/* uncomment it to get working things like before. Product eng , va , GD */}
+
                             {feedback.clientFeedbackLink && (
                                 <div className="mt-4 text-center">
                                     <a
