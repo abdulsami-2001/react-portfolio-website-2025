@@ -1,6 +1,10 @@
 import React from 'react'
 
 const HiringPackage = () => {
+    const BasicPlan = 2000
+    const StandardPlan = 6000
+    const PremiumPlan = 10000
+
     return (
         <section className="bg-white py-8 sm:py-16" id="pricing">
             <div className="container mx-auto px-4 sm:px-8 lg:px-24">
@@ -13,7 +17,7 @@ const HiringPackage = () => {
                             <div className="p-6 border-b border-gray-300">
                                 <h3 className="text-xl font-bold text-gray-900">Basic Plan</h3>
                                 <div className="mt-4 flex items-baseline justify-center">
-                                    <span className="text-4xl font-bold text-[#03b296]">$2,000</span>
+                                    <span className="text-4xl font-bold text-[#03b296]">${BasicPlan}</span>
                                     <span className="ml-1 text-gray-600">/month</span>
                                 </div>
                             </div>
@@ -30,6 +34,12 @@ const HiringPackage = () => {
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                     </svg>
                                     <span className="ml-3 text-gray-600">Monday to Friday</span>
+                                </div>
+                                <div className="flex items-center">
+                                    <svg className="h-5 w-5 text-[#03b296]" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span className="ml-3 text-gray-600">NDA Agreement</span>
                                 </div>
                             </div>
 
@@ -52,7 +62,7 @@ const HiringPackage = () => {
                             <div className="p-6 border-b border-gray-300">
                                 <h3 className="text-xl font-bold text-gray-900">Standard Plan</h3>
                                 <div className="mt-4 flex items-baseline justify-center">
-                                    <span className="text-4xl font-bold text-[#03b296]">$5,500</span>
+                                    <span className="text-4xl font-bold text-[#03b296]">${StandardPlan - 300}</span>
                                     <span className="ml-1 text-gray-600">/3 months</span>
                                 </div>
                             </div>
@@ -69,6 +79,18 @@ const HiringPackage = () => {
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                     </svg>
                                     <span className="ml-3 text-gray-600">Monday to Friday</span>
+                                </div>
+                                <div className="flex items-center">
+                                    <svg className="h-5 w-5 text-[#03b296]" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span className="ml-3 text-gray-600">NDA Agreement</span>
+                                </div>
+                                <div className="flex items-center">
+                                    <svg className="h-5 w-5 text-[#03b296]" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span className="ml-3 text-gray-600">Saving ${StandardPlan - 5700}</span>
                                 </div>
                             </div>
 
@@ -87,7 +109,7 @@ const HiringPackage = () => {
                             <div className="p-6 border-b border-gray-300">
                                 <h3 className="text-xl font-bold text-gray-900">Premium Plan</h3>
                                 <div className="mt-4 flex items-baseline justify-center">
-                                    <span className="text-4xl font-bold text-[#03b296]">$10,000</span>
+                                    <span className="text-4xl font-bold text-[#03b296]">${PremiumPlan}</span>
                                     <span className="ml-1 text-gray-600">/5 months</span>
                                 </div>
                             </div>
@@ -104,6 +126,12 @@ const HiringPackage = () => {
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                     </svg>
                                     <span className="ml-3 text-gray-600">Monday to Friday</span>
+                                </div>
+                                <div className="flex items-center">
+                                    <svg className="h-5 w-5 text-[#03b296]" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
+                                    <span className="ml-3 text-gray-600">NDA Agreement</span>
                                 </div>
                                 <div className="flex items-center">
                                     <svg className="h-5 w-5 text-[#03b296]" fill="currentColor" viewBox="0 0 20 20">

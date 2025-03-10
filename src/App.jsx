@@ -7,9 +7,10 @@ import { serviceRoutes } from './routes/serviceRoutes';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Certificates from './components/Certificates';
-import Mobile_App_Development from './assets/Mobile_App_Development.jpeg'
-import Software_Engineering_Internship from './assets/Software_Engineering_Internship.jpeg'
-import BSCS from './assets/BSCS.jpeg'
+import Mobile_App_Development from './assets/Mobile_App_Development.png'
+import Software_Engineering_Internship from './assets/Software_Engineering_Internship.png'
+import Certificate_of_Appreciation from './assets/Certificate_of_Appreciation.png'
+import BSCS from './assets/BSCS.png'
 import WorkExperienceandEducation from './components/WorkExperienceandEducation';
 
 const App = () => {
@@ -28,7 +29,12 @@ const App = () => {
       name: "4 Years Bachelors Degree Certificate",
       description: "Completed a 4-year Bachelor of Science in Computer Science, achieving a strong cumulative GPA of 3.47 on a 4.0 scale",
       image: BSCS
-    }
+    },
+    {
+      name: "Certificate of Appreciation",
+      description: "Certificate of Appreciation from Vice President of VentureDive",
+      image: Certificate_of_Appreciation
+    },
   ];
 
   const location = useLocation();
