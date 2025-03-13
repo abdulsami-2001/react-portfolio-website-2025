@@ -209,11 +209,11 @@ const Home = () => {
                             </div>
 
                             <div className="mb-4 sm:mb-6">
-                                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                                <h1 className="text-3xl sm:text-5xl lg:text-5xl font-bold text-gray-900 leading-tight">
                                     {/* Excellence in Product Engineering, Design & Development */}
                                     {/* uncomment it to ge◘t working things like before. Product eng , va , GD */}
 
-                                    Software Engineer
+                                    Software Engineer with a Business Mindset
                                 </h1>
                             </div>
 
