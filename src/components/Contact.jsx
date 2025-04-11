@@ -38,7 +38,7 @@ const Contact = () => {
                                 name="name"
                                 placeholder="Name"
                                 required
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#03b296]"
+                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#15aef9]"
                             />
                         </div>
                         <div>
@@ -47,7 +47,7 @@ const Contact = () => {
                                 name="email"
                                 placeholder="Email"
                                 required
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#03b296]"
+                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#15aef9]"
                             />
                         </div>
                         <div>
@@ -55,13 +55,13 @@ const Contact = () => {
                                 name="message"
                                 placeholder="Message: Hey Muhammad Sami!  want to hire you on your [ Basic or Standard or Premium ] Plan,  Are you available to work?"
                                 required
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#03b296] h-32"
+                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#15aef9] h-32"
                             ></textarea>
                         </div>
                         <span className="block text-gray-600">{result}</span>
                         <button
                             type="submit"
-                            className="w-full bg-[#03b296] text-white px-6 py-3 rounded-lg hover:opacity-90 transition-all duration-200">
+                            className="w-full bg-[#15aef9] text-white px-6 py-3 rounded-lg hover:opacity-90 transition-all duration-200">
                             Submit
                         </button>
                     </form>

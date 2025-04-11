@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee';
 
 const ClientsFeedback = ({ feedbacks }) => {
     return (
-        <section className="py-16 bg-[#03b296]">
+        <section className="py-16 bg-[#15aef9]">
             <div className="container mx-auto px-4 sm:px-8 lg:px-24 text-center">
                 <h2 className="text-3xl sm:text-5xl font-bold text-white mb-6">
                     Clients Feedback
@@ -34,7 +34,7 @@ const ClientsFeedback = ({ feedbacks }) => {
                                         href={feedback.clientFeedbackLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-block bg-white text-[#03b296] text-sm font-medium px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+                                        className="inline-block bg-white text-[#15aef9] text-sm font-medium px-4 py-2 rounded-lg hover:bg-gray-100 transition"
                                     >
                                         View Feedback
                                     </a>

@@ -14,9 +14,9 @@ const WorkExperienceandEducation = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="June 2024 - Present"
-                        iconStyle={{ background: "#03b296", color: "#fff", boxShadow: "0 0 10px rgba(3, 178, 150, 0.5)" }}
-                        contentStyle={{ background: "#fff", borderRight: "4px solid #03b296", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
-                        contentArrowStyle={{ borderRight: "7px solid #03b296" }}
+                        iconStyle={{ background: "#15aef9", color: "#fff", boxShadow: "0 0 10px rgba(21, 174, 249, 0.5)" }}
+                        contentStyle={{ background: "#fff", borderRight: "4px solid #15aef9", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
+                        contentArrowStyle={{ borderRight: "7px solid #15aef9" }}
                         icon={<Briefcase />}
                     >
                         <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Service Provider</h3>
@@ -27,9 +27,9 @@ const WorkExperienceandEducation = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="April 2024 - Present"
-                        iconStyle={{ background: "#03b296", color: "#fff", boxShadow: "0 0 10px rgba(3, 178, 150, 0.5)" }}
-                        contentStyle={{ background: "#fff", borderLeft: "4px solid #03b296", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
-                        contentArrowStyle={{ borderRight: "7px solid #03b296" }}
+                        iconStyle={{ background: "#15aef9", color: "#fff", boxShadow: "0 0 10px rgba(21, 174, 249, 0.5)" }}
+                        contentStyle={{ background: "#fff", borderLeft: "4px solid #15aef9", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
+                        contentArrowStyle={{ borderRight: "7px solid #15aef9" }}
                         icon={<Briefcase />}
                     >
                         <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Service Provider</h3>
@@ -39,9 +39,9 @@ const WorkExperienceandEducation = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="October 2023 - January 2024"
-                        iconStyle={{ background: "#03b296", color: "#fff", boxShadow: "0 0 10px rgba(3, 178, 150, 0.5)" }}
-                        contentStyle={{ background: "#fff", borderRight: "4px solid #03b296", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
-                        contentArrowStyle={{ borderRight: "7px solid #03b296" }}
+                        iconStyle={{ background: "#15aef9", color: "#fff", boxShadow: "0 0 10px rgba(21, 174, 249, 0.5)" }}
+                        contentStyle={{ background: "#fff", borderRight: "4px solid #15aef9", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
+                        contentArrowStyle={{ borderRight: "7px solid #15aef9" }}
                         icon={<SchoolIcon />}
                     >
                         <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Mobile App Development</h3>
@@ -51,9 +51,9 @@ const WorkExperienceandEducation = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="June 2023 - September 2024"
-                        iconStyle={{ background: "#03b296", color: "#fff", boxShadow: "0 0 10px rgba(3, 178, 150, 0.5)" }}
-                        contentStyle={{ background: "#fff", borderLeft: "4px solid #03b296", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
-                        contentArrowStyle={{ borderRight: "7px solid #03b296" }}
+                        iconStyle={{ background: "#15aef9", color: "#fff", boxShadow: "0 0 10px rgba(21, 174, 249, 0.5)" }}
+                        contentStyle={{ background: "#fff", borderLeft: "4px solid #15aef9", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
+                        contentArrowStyle={{ borderRight: "7px solid #15aef9" }}
                         icon={<Briefcase />}
                     >
                         <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">React Native Internship</h3>
@@ -65,9 +65,9 @@ const WorkExperienceandEducation = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="October 2020 - September 2024"
-                        iconStyle={{ background: "#03b296", color: "#fff", boxShadow: "0 0 10px rgba(3, 178, 150, 0.5)" }}
-                        contentStyle={{ background: "#fff", borderRight: "4px solid #03b296", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
-                        contentArrowStyle={{ borderRight: "7px solid #03b296" }}
+                        iconStyle={{ background: "#15aef9", color: "#fff", boxShadow: "0 0 10px rgba(21, 174, 249, 0.5)" }}
+                        contentStyle={{ background: "#fff", borderRight: "4px solid #15aef9", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
+                        contentArrowStyle={{ borderRight: "7px solid #15aef9" }}
                         icon={<SchoolIcon />}
                     >
                         <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Bachelor of Science in Computer Science</h3>
@@ -77,9 +77,9 @@ const WorkExperienceandEducation = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="July 2019 - January 2020"
-                        iconStyle={{ background: "#03b296", color: "#fff", boxShadow: "0 0 10px rgba(3, 178, 150, 0.5)" }}
-                        contentStyle={{ background: "#fff", borderLeft: "4px solid #03b296", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
-                        contentArrowStyle={{ borderRight: "7px solid #03b296" }}
+                        iconStyle={{ background: "#15aef9", color: "#fff", boxShadow: "0 0 10px rgba(21, 174, 249, 0.5)" }}
+                        contentStyle={{ background: "#fff", borderLeft: "4px solid #15aef9", boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)", borderRadius: "12px", padding: "20px" }}
+                        contentArrowStyle={{ borderRight: "7px solid #15aef9" }}
                         icon={<SchoolIcon />}
                     >
                         <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Mobile and Web Development</h3>
@@ -87,7 +87,7 @@ const WorkExperienceandEducation = () => {
                         <p className="text-gray-700 text-sm sm:text-base">Onsite · Short Course · Html , CSS , Javascript , ES6 , React , Firebase , Tailwind CSS , React Native , MongoDB , ExpressJS and NodeJS</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        iconStyle={{ background: "#03b296", color: "#fff", boxShadow: "0 0 10px rgba(3, 178, 150, 0.5)" }}
+                        iconStyle={{ background: "#15aef9", color: "#fff", boxShadow: "0 0 10px rgba(21, 174, 249, 0.5)" }}
                         icon={<StarIcon />}
                     />
                 </VerticalTimeline>

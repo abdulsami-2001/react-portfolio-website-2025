@@ -53,7 +53,7 @@ const Projects = ({ projects }) => {
                                         href={project.links.primary}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="bg-[#03b296] text-white px-6 py-3 rounded-lg flex items-center justify-center w-full sm:w-auto hover:opacity-90 transition-all duration-200"
+                                        className="bg-[#15aef9] text-white px-6 py-3 rounded-lg flex items-center justify-center w-full sm:w-auto hover:opacity-90 transition-all duration-200"
                                     >
                                         View Project
                                     </a>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
+import { ChevronUp } from 'lucide-react'; // or use any icon you prefer
 import { Link, useLocation } from 'react-router-dom';
 import Marquee from 'react-fast-marquee';
 import Muhammad_Sami from '../assets/Muhammad_Sami.png';
@@ -12,6 +14,17 @@ const countryCodes = ['es', 'nl', 'se',
 
 const Header = () => {
     const location = useLocation();
+    const [showScrollButton, setShowScrollButton] = useState(false);
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            setShowScrollButton(window.scrollY > 300);
+        };
+
+        window.addEventListener('scroll', toggleVisibility);
+        return () => window.removeEventListener('scroll', toggleVisibility);
+    }, []);
+
 
     const navigation = [
         // { path: '/development-and-programming', label: 'Development & Programming' },
@@ -30,7 +43,7 @@ const Header = () => {
                         <img
                             src={Muhammad_Sami}
                             alt="Muhammad Sami"
-                            className="w-16 h-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full shadow-lg border-2 border-[#03b296]"
+                            className="w-16 h-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full shadow-lg border-2 border-[#15aef9]"
                         />
                         <div className="flex flex-col text-center sm:text-left">
                             <span className="text-gray-800 font-extrabold text-lg sm:text-2xl lg:text-3xl tracking-wide">
@@ -51,8 +64,8 @@ const Header = () => {
                                         to={nav.path}
                                         className={`px-4 py-2 rounded-md transition-all duration-300 text-sm sm:text-base font-medium block text-center 
         ${location.pathname === nav.path
-                                                ? 'text-[#03b296] border-b-2 border-[#03b296] font-semibold'
-                                                : 'text-gray-700 hover:text-[#03b296] hover:border-b-2 hover:border-[#03b296]'
+                                                ? 'text-[#15aef9] border-b-2 border-[#15aef9] font-semibold'
+                                                : 'text-gray-700 hover:text-[#15aef9] hover:border-b-2 hover:border-[#15aef9]'
                                             }`}
                                     >
                                         {nav.label}
@@ -67,7 +80,7 @@ const Header = () => {
                     <div className="w-full sm:w-auto text-center sm:text-right">
                         <a
                             href="#contact"
-                            className="bg-[#03b296] text-white px-5 sm:px-7 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base hover:bg-[#02997f] transition-all duration-300 font-semibold shadow-md w-full sm:w-auto inline-block">
+                            className="bg-[#15aef9] text-white px-5 sm:px-7 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base hover:bg-[#15adf9e2] transition-all duration-300 font-semibold shadow-md w-full sm:w-auto inline-block">
                             Hire Now
                         </a>
                     </div>
@@ -95,7 +108,15 @@ const Header = () => {
                     </Marquee>
                 </div>
             </div>
-
+            {showScrollButton && (
+                <button
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    className="fixed bottom-6 right-6 z-50 p-3 rounded-full shadow-lg bg-[#15aef9] hover:bg-[#15adf9e2] text-white transition-opacity duration-300"
+                    aria-label="Scroll to top"
+                >
+                    <ChevronUp className="w-5 h-5" />
+                </button>
+            )}
         </header>
     );
 };

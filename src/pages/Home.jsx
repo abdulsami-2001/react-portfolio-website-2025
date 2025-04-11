@@ -237,7 +237,7 @@ const Home = () => {
                             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12">
                                 <a
                                     href="#projects"
-                                    className="bg-[#03b296] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center justify-center sm:justify-start gap-2 hover:opacity-90 transition-all duration-200"
+                                    className="bg-[#15aef9] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center justify-center sm:justify-start gap-2 hover:opacity-90 transition-all duration-200"
                                 >
                                     View My Projects
                                 </a>
@@ -252,11 +252,11 @@ const Home = () => {
 
                         <div className="flex justify-center lg:justify-end">
                             <div className="relative">
-                                <div className="absolute inset-0 bg-[#03b296] opacity-10 rounded-full"></div>
+                                <div className="absolute inset-0 bg-[#15aef9] opacity-10 rounded-full"></div>
                                 <img
                                     src={Muhammad_Sami}
                                     alt="Muhammad Sami"
-                                    className="relative w-full h-full lg:w-96 lg:h-96  rounded-xl shadow-xl border-2 border-[#03b296] "
+                                    className="relative w-full h-full lg:w-96 lg:h-96  rounded-xl shadow-xl border-2 border-[#15aef9] "
                                 />
                             </div>
                         </div>

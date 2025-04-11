@@ -38,7 +38,7 @@ const Hero = ({ title, heading, description, animation }) => {
                         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12">
                             <a
                                 href="#projects"
-                                className="bg-[#03b296] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center justify-center sm:justify-start gap-2 hover:opacity-90 transition-all duration-200"
+                                className="bg-[#15aef9] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center justify-center sm:justify-start gap-2 hover:opacity-90 transition-all duration-200"
                             >
                                 <span>View My Projects</span>
                             </a>

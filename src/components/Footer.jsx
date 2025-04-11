@@ -8,34 +8,34 @@ const Footer = () => {
                 <div className="flex flex-col items-center text-center space-y-4">
                     <div className="flex flex-col items-center">
                         <p className="text-gray-800 font-medium mb-2 text-sm sm:text-base flex items-center">
-                            <Mail className="w-5 h-5 mr-2  text-[#03b296]" />
-                            <a href="mailto:contact@muhammad-sami.com" target="_blank" className="text-[#03b296] hover:underline">
+                            <Mail className="w-5 h-5 mr-2  text-gray-800" />
+                            <a href="mailto:contact@muhammad-sami.com" target="_blank" className="text-gray-800 hover:underline">
                                 contact@muhammad-sami.com
                             </a>
                         </p>
                         <p className="text-gray-800 font-medium text-sm sm:text-base flex items-center">
-                            <Mail className="w-5 h-5 mr-2 text-[#03b296]" />
-                            <a href="mailto:muhammadsami.workspace@gmail.com" target="_blank" className="text-[#03b296] hover:underline">
+                            <Mail className="w-5 h-5 mr-2 text-gray-800" />
+                            <a href="mailto:muhammadsami.workspace@gmail.com" target="_blank" className="text-gray-800 hover:underline">
                                 muhammadsami.workspace@gmail.com
                             </a>
                         </p>
                         <p className="text-gray-800 font-medium text-sm sm:text-base flex items-center mt-2">
-                            <Phone className="w-5 h-5 mr-2 text-[#03b296]" />
-                            <a href="https://wa.me/923312847546" className="text-[#03b296] hover:underline" target="_blank" rel="noopener noreferrer">
+                            <Phone className="w-5 h-5 mr-2 text-gray-800" />
+                            <a href="https://wa.me/923312847546" className="text-gray-800 hover:underline" target="_blank" rel="noopener noreferrer">
                                 +92 331 2847546
                             </a>
                         </p>
                     </div>
                     <div className="flex flex-col items-center">
                         <p className="text-gray-800 font-medium text-sm sm:text-base flex items-center">
-                            <Briefcase className="w-5 h-5 mr-2 text-[#03b296]" />
-                            <a href="https://www.upwork.com/freelancers/~0160649c08694ce31b" target="_blank" className="text-[#03b296] hover:underline">
+                            <Briefcase className="w-5 h-5 mr-2 text-gray-800" />
+                            <a href="https://www.upwork.com/freelancers/~0160649c08694ce31b" target="_blank" className="text-gray-800 hover:underline">
                                 Upwork Profile
                             </a>
                         </p>
                         <p className="text-gray-800 font-medium text-sm sm:text-base flex items-center mt-2">
-                            <Briefcase className="w-5 h-5 mr-2 text-[#03b296]" />
-                            <a href="https://www.fiverr.com/abdulsamisam" target="_blank" className="text-[#03b296] hover:underline">
+                            <Briefcase className="w-5 h-5 mr-2 text-gray-800" />
+                            <a href="https://www.fiverr.com/abdulsamisam" target="_blank" className="text-gray-800 hover:underline">
                                 Fiverr Profile
                             </a>
                         </p>
